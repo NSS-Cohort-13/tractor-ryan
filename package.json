@@ -1,0 +1,24 @@
+{
+  "name": "tractor-ryan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NSS-Cohort-13/tractor-ryan.git"
+  },
+  "keywords": [],
+  "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NSS-Cohort-13/tractor-ryan/issues"
+  },
+  "homepage": "https://github.com/NSS-Cohort-13/tractor-ryan#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
