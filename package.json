@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server public",
-    "deploy": "GIT_DEPLOY_DIR=public ./deploy.sh"
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/NSS-Cohort-13/tractor-ryan#readme",
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "http-server": "^0.9.0"
   }
 }
